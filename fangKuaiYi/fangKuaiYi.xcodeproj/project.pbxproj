@@ -13,9 +13,11 @@
 		3C439C851E20DD590020D60F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C439C831E20DD590020D60F /* Main.storyboard */; };
 		3C439C871E20DD590020D60F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C439C861E20DD590020D60F /* Assets.xcassets */; };
 		3C439C8A1E20DD590020D60F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C439C881E20DD590020D60F /* LaunchScreen.storyboard */; };
+		5E9BDA98EDA63A7711247BDB /* libPods-fangKuaiYi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 307CB2515FD10D17B1713557 /* libPods-fangKuaiYi.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		307CB2515FD10D17B1713557 /* libPods-fangKuaiYi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-fangKuaiYi.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C439C771E20DD590020D60F /* fangKuaiYi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fangKuaiYi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C439C7B1E20DD590020D60F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3C439C7D1E20DD590020D60F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +28,8 @@
 		3C439C861E20DD590020D60F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C439C891E20DD590020D60F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C439C8B1E20DD590020D60F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D102F35F7846EDC946FCCAA /* Pods-fangKuaiYi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fangKuaiYi.release.xcconfig"; path = "Pods/Target Support Files/Pods-fangKuaiYi/Pods-fangKuaiYi.release.xcconfig"; sourceTree = "<group>"; };
+		F7CF7FF037120719BF10A623 /* Pods-fangKuaiYi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fangKuaiYi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-fangKuaiYi/Pods-fangKuaiYi.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E9BDA98EDA63A7711247BDB /* libPods-fangKuaiYi.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +49,8 @@
 			children = (
 				3C439C791E20DD590020D60F /* fangKuaiYi */,
 				3C439C781E20DD590020D60F /* Products */,
+				B5AF5B6EFB4523921E8CBF79 /* Pods */,
+				8F4EC1D2FC3B7EC416A24651 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +86,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		8F4EC1D2FC3B7EC416A24651 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				307CB2515FD10D17B1713557 /* libPods-fangKuaiYi.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B5AF5B6EFB4523921E8CBF79 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F7CF7FF037120719BF10A623 /* Pods-fangKuaiYi.debug.xcconfig */,
+				6D102F35F7846EDC946FCCAA /* Pods-fangKuaiYi.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +110,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3C439C8E1E20DD590020D60F /* Build configuration list for PBXNativeTarget "fangKuaiYi" */;
 			buildPhases = (
+				937908981652853E3DBA261F /* [CP] Check Pods Manifest.lock */,
 				3C439C731E20DD590020D60F /* Sources */,
 				3C439C741E20DD590020D60F /* Frameworks */,
 				3C439C751E20DD590020D60F /* Resources */,
+				65D29A4676E1042D17CF2FDB /* [CP] Embed Pods Frameworks */,
+				2457BD107CB9627223E5051C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -144,6 +171,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2457BD107CB9627223E5051C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-fangKuaiYi/Pods-fangKuaiYi-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65D29A4676E1042D17CF2FDB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-fangKuaiYi/Pods-fangKuaiYi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		937908981652853E3DBA261F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3C439C731E20DD590020D60F /* Sources */ = {
@@ -270,6 +345,7 @@
 		};
 		3C439C8F1E20DD590020D60F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7CF7FF037120719BF10A623 /* Pods-fangKuaiYi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = fangKuaiYi/Info.plist;
@@ -281,6 +357,7 @@
 		};
 		3C439C901E20DD590020D60F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D102F35F7846EDC946FCCAA /* Pods-fangKuaiYi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = fangKuaiYi/Info.plist;
