@@ -14,6 +14,10 @@
 		3C439C871E20DD590020D60F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C439C861E20DD590020D60F /* Assets.xcassets */; };
 		3C439C8A1E20DD590020D60F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C439C881E20DD590020D60F /* LaunchScreen.storyboard */; };
 		5E9BDA98EDA63A7711247BDB /* libPods-fangKuaiYi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 307CB2515FD10D17B1713557 /* libPods-fangKuaiYi.a */; };
+		8E8CD49E1E20EA490096B300 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 8E8CD4971E20EA490096B300 /* .gitignore */; };
+		8E8CD49F1E20EA490096B300 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 8E8CD4991E20EA490096B300 /* .gitignore */; };
+		8E8CD4A01E20EA490096B300 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 8E8CD49B1E20EA490096B300 /* .gitignore */; };
+		8E8CD4A11E20EA490096B300 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 8E8CD49D1E20EA490096B300 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +33,10 @@
 		3C439C891E20DD590020D60F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C439C8B1E20DD590020D60F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6D102F35F7846EDC946FCCAA /* Pods-fangKuaiYi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fangKuaiYi.release.xcconfig"; path = "Pods/Target Support Files/Pods-fangKuaiYi/Pods-fangKuaiYi.release.xcconfig"; sourceTree = "<group>"; };
+		8E8CD4971E20EA490096B300 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		8E8CD4991E20EA490096B300 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		8E8CD49B1E20EA490096B300 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		8E8CD49D1E20EA490096B300 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		F7CF7FF037120719BF10A623 /* Pods-fangKuaiYi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fangKuaiYi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-fangKuaiYi/Pods-fangKuaiYi.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -65,8 +73,7 @@
 		3C439C791E20DD590020D60F /* fangKuaiYi */ = {
 			isa = PBXGroup;
 			children = (
-				8E8CD4321E20E1670096B300 /* ThirdLibrary */,
-				8E8CD42D1E20E1510096B300 /* Classes */,
+				8E8CD4951E20EA490096B300 /* Class */,
 				3C439C7D1E20DD590020D60F /* AppDelegate.h */,
 				3C439C7E1E20DD590020D60F /* AppDelegate.m */,
 				3C439C801E20DD590020D60F /* ViewController.h */,
@@ -88,50 +95,47 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		8E8CD42D1E20E1510096B300 /* Classes */ = {
+		8E8CD4951E20EA490096B300 /* Class */ = {
 			isa = PBXGroup;
 			children = (
-				8E8CD42E1E20E1510096B300 /* Base */,
-				8E8CD42F1E20E1510096B300 /* Home */,
-				8E8CD4301E20E1510096B300 /* Main */,
-				8E8CD4311E20E1510096B300 /* NewFeature */,
+				8E8CD4961E20EA490096B300 /* Base */,
+				8E8CD4981E20EA490096B300 /* Home */,
+				8E8CD49A1E20EA490096B300 /* Main */,
+				8E8CD49C1E20EA490096B300 /* NewFeature */,
 			);
-			path = Classes;
+			path = Class;
 			sourceTree = "<group>";
 		};
-		8E8CD42E1E20E1510096B300 /* Base */ = {
+		8E8CD4961E20EA490096B300 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				8E8CD4971E20EA490096B300 /* .gitignore */,
 			);
 			path = Base;
 			sourceTree = "<group>";
 		};
-		8E8CD42F1E20E1510096B300 /* Home */ = {
+		8E8CD4981E20EA490096B300 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				8E8CD4991E20EA490096B300 /* .gitignore */,
 			);
 			path = Home;
 			sourceTree = "<group>";
 		};
-		8E8CD4301E20E1510096B300 /* Main */ = {
+		8E8CD49A1E20EA490096B300 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				8E8CD49B1E20EA490096B300 /* .gitignore */,
 			);
 			path = Main;
 			sourceTree = "<group>";
 		};
-		8E8CD4311E20E1510096B300 /* NewFeature */ = {
+		8E8CD49C1E20EA490096B300 /* NewFeature */ = {
 			isa = PBXGroup;
 			children = (
+				8E8CD49D1E20EA490096B300 /* .gitignore */,
 			);
 			path = NewFeature;
-			sourceTree = "<group>";
-		};
-		8E8CD4321E20E1670096B300 /* ThirdLibrary */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ThirdLibrary;
 			sourceTree = "<group>";
 		};
 		8F4EC1D2FC3B7EC416A24651 /* Frameworks */ = {
@@ -212,8 +216,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E8CD49F1E20EA490096B300 /* .gitignore in Resources */,
+				8E8CD4A11E20EA490096B300 /* .gitignore in Resources */,
+				8E8CD49E1E20EA490096B300 /* .gitignore in Resources */,
 				3C439C8A1E20DD590020D60F /* LaunchScreen.storyboard in Resources */,
 				3C439C871E20DD590020D60F /* Assets.xcassets in Resources */,
+				8E8CD4A01E20EA490096B300 /* .gitignore in Resources */,
 				3C439C851E20DD590020D60F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
